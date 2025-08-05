@@ -8,6 +8,8 @@ func main() {
 	for x := range 10 {
 		if x%2 == 0 {
 			fmt.Println("Value of x : ", x)
+		} else {
+			fmt.Println("Odd value of x : ", x)
 		}
 	}
 }
