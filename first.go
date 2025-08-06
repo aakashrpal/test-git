@@ -23,6 +23,10 @@ func main() {
 
 	result := AreaRact(len, bred)
 	fmt.Println(result)
+
+	grade := "B"
+
+	switchCase(grade)
 }
 
 func modifyArr(arr *[4]int) {
@@ -32,4 +36,18 @@ func modifyArr(arr *[4]int) {
 func AreaRact(a, b int) int {
 	area := a * b
 	return area
+}
+
+func switchCase(grade string) {
+
+	switch grade {
+	case "A":
+		fmt.Println("First class")
+	case "B":
+		fmt.Println("Second class")
+	case "C":
+		fmt.Println("Third class")
+	case "D":
+		fmt.Println("FAIL")
+	}
 }
