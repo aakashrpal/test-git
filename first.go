@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello Aakash")
 
 	for x := range 10 {
 		if x%2 == 0 {
@@ -18,8 +17,19 @@ func main() {
 	modifyArr(&num)
 
 	fmt.Println(num)
+
+	len := 10
+	bred := 20
+
+	result := AreaRact(len, bred)
+	fmt.Println(result)
 }
 
 func modifyArr(arr *[4]int) {
 	arr[0] = 10
+}
+
+func AreaRact(a, b int) int {
+	area := a * b
+	return area
 }
