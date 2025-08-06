@@ -49,5 +49,8 @@ func switchCase(grade string) {
 		fmt.Println("Third class")
 	case "D":
 		fmt.Println("FAIL")
+	default:
+		fmt.Println("Try again")
 	}
+
 }
