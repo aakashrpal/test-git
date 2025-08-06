@@ -28,11 +28,17 @@ func main() {
 
 	switchCase(grade)
 
+
+	for i := 1; i <= 10; i++ {
+		fmt.Println(i)
+	}
+
 	fmt.Println("Test git push and pull code !!")
 
 	fmt.Println("Merge Coonflict ")
 
 	fmt.Println("Unwanted code conflict")
+
 }
 
 func modifyArr(arr *[4]int) {
