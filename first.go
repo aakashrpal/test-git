@@ -30,6 +30,8 @@ func main() {
 
 	fmt.Println("Test git push and pull code !!")
 
+	fmt.Println("Merge Coonflict ")
+
 	fmt.Println("Unwanted code conflict")
 }
 
