@@ -27,6 +27,10 @@ func main() {
 	grade := "B"
 
 	switchCase(grade)
+
+	for i := 1; i <= 10; i++ {
+		fmt.Println(i)
+	}
 }
 
 func modifyArr(arr *[4]int) {
