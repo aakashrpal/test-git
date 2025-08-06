@@ -27,6 +27,8 @@ func main() {
 	grade := "B"
 
 	switchCase(grade)
+
+	fmt.Println("Test git push and pull code !!")
 }
 
 func modifyArr(arr *[4]int) {
