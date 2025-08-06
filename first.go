@@ -29,6 +29,8 @@ func main() {
 	switchCase(grade)
 
 	fmt.Println("Test git push and pull code !!")
+
+	fmt.Println("Unwanted code conflict")
 }
 
 func modifyArr(arr *[4]int) {
